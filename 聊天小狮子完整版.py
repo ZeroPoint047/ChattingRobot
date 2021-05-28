@@ -28,7 +28,7 @@ def chatting():
 
     userid = str(random.randint(1, 1000000000000000000000))
     apikey = 'ef9722561c97454e9c5d661f0fb9aac1'
-            
+    #这个apikey是专业版，500次一天
     tulingdata1 = json.dumps({
                 "perception": {
                 "inputText": {

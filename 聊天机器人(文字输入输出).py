@@ -23,13 +23,17 @@ while True:
         time.sleep(1)
         userid = str(random.randint(1, 1000000000000000000000))
         apikey = '8e8494cc7d164abc97eb13610c480763'
-        # 超过1w有风险，19-01-19
-        tulingdata1 = json.dumps({"perception": {
-            "inputText": {
-                "text": user1
-            },
+        # 100次 一天
+        tulingdata1 = json.dumps(
+            {
+                "perception":
+                {
+                    "inputText":
+                        {
+                            "text": user1
+                        },
 
-        },
+                },
             "userInfo": {
                 "apiKey": apikey,
                 "userId": userid
