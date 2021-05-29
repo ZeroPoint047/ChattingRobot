@@ -9,7 +9,7 @@ import time
 from threading import Thread
 #flag为1时，小狮子嘴巴动起来
 flag=1
-#语音路径 自定义
+#语音路径 自定义路径
 path=r'C:\Users\zhuqian\Desktop\s\myword.mp3'
 def asyn(f):
     def wrapper(*args, **kwargs):
